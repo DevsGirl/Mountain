@@ -1,0 +1,89 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .home-text img {
+        top: 28%;
+        left: 16%;
+        width: 50%;
+    }
+    .header-area {
+        height: 50vh;
+    }
+    .history-main {
+        height: 60vh;
+    }
+    .thumbneil-slider-area {
+        margin-top: -261px;
+    }
+    .shedule-box {
+        height: 50vh;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .home-text img {
+      display: none;
+    }
+    .header-area {
+        height: 30vh;
+    }
+    .bottom-menu ul {
+        display: block;
+    }
+    .history-text img {
+        width: 100px;
+    }
+    .history-text p {
+        margin-left: 0;
+    }
+    .owl-carousel .owl-item img {
+        padding-left: 27px;
+    }
+    .thumbneil-slider-area {
+        margin-top: -208px;
+    }
+    .climb-area {
+        display: block;
+    }
+    .climb-area img {
+        width: 100px;
+        padding: 0 10px;
+    }
+    .nav-tabs {
+        padding-left: 0;
+    }
+    .shedule1 {
+        margin-left: 10px;
+    }
+    .footer-main img {
+        width: 100px;
+        margin-bottom: 10px;
+    }
+    .footer-main {
+        display: flex;
+        flex-direction: column;
+    }
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
